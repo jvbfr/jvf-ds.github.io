@@ -2,14 +2,14 @@ body{
   color: #40514E;
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
 
 }
 
 h1{
   margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Sacramento', cursive; 
   font-size: 5.625rem;
   color: #66BFBF;
 }
@@ -25,6 +25,7 @@ h2{
 .title{
 
   font-weight: normal;
+  font-size: 1.8rem;
 }
 
 h3{
@@ -40,15 +41,17 @@ p{
 
 hr{
 
-  border: dotted #EAF6F6 6px;
+  border: dotted #e4ecec 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
   
+  
 }
 
+
 a{
-  color: #11999E;
+  color: #0f7a7e;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
@@ -57,15 +60,67 @@ a{
 
 }
 
+.nav:hover{
+
+  color: #191f1e;
+}
+
+.nav-active{
+
+  color: #191f1e;
+}
+
+.nav-active:hover{
+
+  color: #191f1e;
+}
+
+
 a:hover{
 
   color: #EAF6F6;
 }
 
+
+
+.nav-container{
+  background-color: #E4F9F5;
+  padding: 10px 0 20px;
+  font-size: 1rem;
+  
+
+  
+}
+
+li {
+
+  width: 40%;
+  margin: 40px auto 60px;
+  line-style-type:none;
+  display: inline;
+  font-weight:700
+
+}
+
+ul {
+
+  float: left;
+}
+
+.doll-img{
+  
+  width: 80px;
+  margin-right: 500px;
+  margin-top: 10px;
+
+
+}
+
+
 .top-container{
   background-color: #E4F9F5;
   position: relative;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .middle-container{
@@ -85,13 +140,13 @@ a:hover{
 
 .bottom-cloud{
   position: absolute;
-  left: 300px;
+  left: 450px;
   bottom: 300px;
 }
 
 .top-cloud{
   position: absolute;
-  right: 300px;
+  right: 450px;
   top: 50px;
 }
 
@@ -198,5 +253,5 @@ a:hover{
 .copyright{
 
   color: #EAF6F6;
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
