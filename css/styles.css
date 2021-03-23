@@ -87,9 +87,66 @@ a:hover{
   background-color: #E4F9F5;
   padding: 10px 0 20px;
   font-size: 1rem;
-  
+  overflow: hidden;
 
-  
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+.center{
+  width: 40%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skillBox{
+
+  box-sizing: border-box;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.skillBox p{
+
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  padding: 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+
+}
+
+.skillBox p:nth-child(2){
+
+  float: right;
+  position: relative;
+  top: -25px;
+}
+
+
+.skill{
+
+  background: #262626;
+  padding: 4px;
+  box-sizing: border-box;
+  border: 1px solid #0fffb7;
+  border-radius: 2px;
+
+}
+
+.skill-level{
+
+  background: #0fffb7;
+  width: 100%;
+  height: 10px;
+
+
 }
 
 li {
@@ -208,14 +265,8 @@ ul {
 
   width: 5%;
   position: absolute;
-  right: 445px;
-  top: 250px;
-  background-color: #E4F9F5;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  border-radius: 100%;
+  right: 500px;
+  top: 950px;
 
 }
 
@@ -223,14 +274,17 @@ ul {
 
   width: 5%;
   position: absolute;
-  right: 445px;
-  top: 1300px;
-  background-color: #E4F9F5;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  border-radius: 100%;
+  right: 500px;
+  top: 2050px;
+  
+
+}
+
+.arrow-3{
+  width: 5%;
+  position: absolute;
+  right: 500px;
+  top: 3170px;
 
 }
 
@@ -238,8 +292,8 @@ ul {
 
   width: 13%;
   position: absolute;
-  right: 350px;
-  top: 450px;
+  right: 420px;
+  top: 1100px;
   background-color: #E4F9F5;
   padding-left: 5px;
   padding-top: 5px;
@@ -253,15 +307,29 @@ ul {
   width: 25%
   margin: auto;
   margin-right: 350px;
-  margin-bottom:50px;;
+  margin-bottom:50px;
+}
+
+.insurance-image{
+
+  width: 25%
+  margin: auto;
+  margin-right: 400px;
+  margin-bottom:50px;
+
+}
+
+.cesar-image{
+
+  width: 30%;
 }
 
 .google-sheet{
 
   width: 13%;
   position: absolute;
-  right: 350px;
-  top: 1500px;
+  right: 420px;
+  top: 2200px;
   background-color: #E4F9F5;
   padding-left: 5px;
   padding-top: 5px;
@@ -271,6 +339,22 @@ ul {
 
 
 }
+
+.cf{
+  width: 30%;
+  position: absolute;
+  right: 200px;
+  top: 3330px;
+  background-color: #E4F9F5;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  border-radius: 5%;
+
+
+}
+
 .skill-image{
 
   width: 25%;
@@ -299,11 +383,25 @@ ul {
 
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
 .contact{
 
   padding-bottom: 30px;
 }
 
+.back{
+
+  margin-bottom: 50px;
+}
 .btn {
   background: #11CDD4;
   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
